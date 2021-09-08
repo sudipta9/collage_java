@@ -1,4 +1,4 @@
-// Write a program to print right triangle star pattern
+//* 2. Write a program to print the right triangle star pattern
 
 public class rightTriangle {
     public static void main(String[] args) {

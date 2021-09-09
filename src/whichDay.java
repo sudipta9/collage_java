@@ -1,12 +1,12 @@
 import java.util.*;
 
 public class whichDay {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        
 
         System.out.println("Enter any number between 1 - 7");
         int a = input.nextInt();
+        input.close();
 
         switch (a) {
             case 1:
@@ -30,9 +30,9 @@ public class whichDay {
             case 7:
                 System.out.println("Sunday");
                 break;
-        
+
             default:
-            System.out.println("Enter a Valid input");
+                System.out.println("Enter a Valid input");
                 break;
         }
     }

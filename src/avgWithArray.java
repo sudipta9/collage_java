@@ -6,15 +6,17 @@ public class avgWithArray {
         int total = 0;
 
         int n[] = new int[5];
-        for(int i = 0; i< n.length; i++){
-            System.out.println("Enter "+ (i+1) + " Mark");
+        for (int i = 0; i < n.length; i++) {
+            System.out.println("Enter " + (i + 1) + " Mark");
             n[i] = input.nextInt();
         }
+        input.close();
 
-        for(int i: n){
-            total+=i;
-        };
+        for (int i : n) {
+            total += i;
+        }
+        ;
 
-        System.out.println("Avg: " + total/ n.length);
+        System.out.println("Avg: " + total / n.length);
     }
 }

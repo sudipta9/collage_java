@@ -11,6 +11,8 @@ public class sumOfn {
             total = total + input.nextInt();
             num--;
         }
-        System.out.println("result is: "+ total);
+        input.close();
+
+        System.out.println("result is: " + total);
     }
 }

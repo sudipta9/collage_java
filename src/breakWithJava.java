@@ -2,12 +2,19 @@
 
 public class breakWithJava {
     public static void main(String[] args) {
+        System.out.println("");
         for (int i = 0; i < 10; i++) {
-            System.out.println(i);
-            if (i < 8)
+            if (i < 8) {
+                System.out.println("Continue");
                 continue;
-            if (i == 8)
+            }
+
+            if (i == 9) {
+                System.out.println("Break");
                 break;
+            }
+
+            System.out.println(i);
         }
     }
 }

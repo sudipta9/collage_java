@@ -1,3 +1,5 @@
+// 3. Write a program to calculate AVERAGE using an array.
+
 import java.util.*;
 
 public class avgWithArray {
@@ -15,8 +17,6 @@ public class avgWithArray {
         for (int i : n) {
             total += i;
         }
-        ;
-
         System.out.println("Avg: " + total / n.length);
     }
 }

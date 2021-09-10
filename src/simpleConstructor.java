@@ -1,3 +1,5 @@
+// Write a program to demonstrate constructor (with no-arg, parameterized, Default constructor).
+
 public class simpleConstructor {
     // * default (no constructor)
     int i;

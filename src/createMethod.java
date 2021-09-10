@@ -1,14 +1,4 @@
 public class createMethod {
-    public static void main(String[] args) {
-        test obj = new test();
-        obj.withoutParameter();
-        int val = obj.increment(5);
-        System.out.println(val);
-    }
-}
-
-class test {
-
     // method without parameter and without return value
     void withoutParameter() {
         System.out.println("without parameter method called.");
@@ -18,5 +8,13 @@ class test {
     int increment(int someInput) {
         someInput++;
         return someInput;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("");
+        createMethod obj = new createMethod();
+        obj.withoutParameter();
+        int val = obj.increment(5);
+        System.out.println(val);
     }
 }

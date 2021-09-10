@@ -1,3 +1,5 @@
+// Write a program to find the square root and power using math function
+
 import java.util.*;
 
 public class findSqrtAndSquare {
@@ -19,6 +21,7 @@ public class findSqrtAndSquare {
     }
 
     public static void main(String[] args) {
+        System.out.println("");
         findSqrtAndSquare result = new findSqrtAndSquare();
         result.findSqrt();
         result.findSquare();

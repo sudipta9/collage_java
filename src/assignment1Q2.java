@@ -18,6 +18,6 @@ public class assignment1Q2 {
     }
 
     public static void main(String[] args) {
-        new assignment1Q2();
+        assignment1Q2 obj = new assignment1Q2();
     }
 }

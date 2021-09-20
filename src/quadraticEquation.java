@@ -16,7 +16,7 @@ public class quadraticEquation {
         input.close();
     }
 
-    double getDiscriminant() {
+    double getDeterminant() {
         return Math.pow(b, 2) - (4 * a * c);
     }
 
@@ -29,7 +29,7 @@ public class quadraticEquation {
     }
 
     void getAllRoots() {
-        double determinant = this.getDiscriminant();
+        double determinant = this.getDeterminant();
         if (determinant < 0)
             System.out.println("The equation has no roots");
         else if (determinant == 0)

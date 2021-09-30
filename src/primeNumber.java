@@ -1,19 +1,22 @@
+import java.util.Scanner;
 // Write a program to print the prime numbers
 
 public class primeNumber {
     public static void main(String[] args) {
-        System.out.println("");
-        int num = 29;
-        boolean flag = false;
-        for (int i = 2; i <= num / 2; ++i) {
-            if (num % i == 0) {
-                flag = true;
-                break;
-            }
+        int n;
+        // to count how many time n is devisable
+        int counter = 0;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter number to check");
+        n = input.nextInt();
+        input.close();
+        for (int i = 2; i <= n / 2; i++) {
+            if (n % i == 0)
+                counter += 1;
         }
-        if (!flag)
-            System.out.println(num + " is a prime number.");
+        if (counter == 0)
+            System.out.println("Prime number");
         else
-            System.out.println(num + " is not a prime number.");
+            System.out.println("non-prime number");
     }
 }

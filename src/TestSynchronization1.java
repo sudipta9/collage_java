@@ -2,7 +2,6 @@ class Table {
     void printTable(int n) {
         for (int i = 1; i < 6; i++) {
             System.out.println(i * n);
-
             try {
                 Thread.sleep(400);
             } catch (Exception e) {

@@ -1,7 +1,7 @@
 public class demoEncapsulation {
     public static void main(String[] args) {
         newClassEncapsulation obj = new newClassEncapsulation();
-        // System.out.println(obj.id);
+        System.out.println();
         obj.setId(10);
         obj.setName("Sudipta");
         System.out.println(obj.getId());

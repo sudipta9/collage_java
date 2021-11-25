@@ -1,4 +1,4 @@
-public class assignment03Q7 {
+public class assignment02Q7 {
     public static void main(String[] args) {
         ThreadRun obj = new ThreadRun();
         obj.start();
